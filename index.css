@@ -47,19 +47,19 @@ button {
 }
 
 #increment-btn {
-  background: #3d7cf1;
+  background: #3d7cf183;
 }
 
 #decrement-btn {
-  background: #a34343d5;
+  background: #a343437e;
 }
 
 #save-btn {
-  background: #22b141;
+  background: #22b14198;
 }
 
 p {
   font-weight: bold;
   font-size: 1.5em;
-  color: #0c08f7;
+  color: #0c08f788;
 }
