@@ -7,10 +7,10 @@ body {
 }
 
 .container {
-  background: rgb(190, 217, 243);
+  background: transparent;
   max-width: 80%;
   margin: auto;
-  border: 3px solid black;
+  border: 3px solid rgb(250, 146, 168);
   border-radius: 10px;
   width: 80vh;
   height: 100vh;
