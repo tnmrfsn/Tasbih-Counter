@@ -52,6 +52,9 @@ button {
 #increment-btn:hover {
   background: #5a8ff083;
 }
+#increment-btn:active {
+  background: #0657f083;
+}
 
 /* #decrement-btn {
   background: #a343437e;
@@ -62,6 +65,9 @@ button {
 }
 #save-btn:hover {
   background: #4caa6198;
+}
+#save-btn:active {
+  background: #0b992a98;
 }
 
 p {
