@@ -11,7 +11,7 @@ body {
   background: transparent;
   max-width: 80%;
   margin: auto;
-  border: 3px solid rgb(250, 146, 168);
+  border: 3px solid rgba(250, 146, 168, 0.192);
   border-radius: 10px;
   width: 80vh;
   height: 100vh;
@@ -31,7 +31,6 @@ h2 {
   font-size: 50px;
   margin-top: 0;
   margin-bottom: 20px;
-  font-size: 2em;
 }
 
 button {
@@ -43,7 +42,6 @@ button {
   width: 250px;
   margin-bottom: 5px;
   border-radius: 5px;
-  font-size: 2em;
 }
 
 #increment-btn {
@@ -60,6 +58,5 @@ button {
 
 p {
   font-weight: bold;
-  font-size: 1.5em;
   color: #0c08f788;
 }
