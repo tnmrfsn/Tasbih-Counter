@@ -61,7 +61,7 @@ p {
   color: #0c08f788;
 }
 
-@media screen and (max-width=640px) {
+@media screen and (max-width: 640px) {
   p {
     font-weight: bold;
     color: white;
