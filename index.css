@@ -68,8 +68,8 @@ p {
   }
   button {
     width: 150px;
-    padding: 40px;
-    border-radius: 100px;
+    padding: 50px 50px;
+    border-radius: 120px;
     font-size: 1.1em;
     text-align: center;
   }
