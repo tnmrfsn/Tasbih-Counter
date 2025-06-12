@@ -11,7 +11,7 @@ body {
   background: transparent;
   max-width: 80%;
   margin: auto;
-  border: 3px solid rgba(250, 146, 168, 0.192);
+  border: none;
   border-radius: 10px;
   width: 80vh;
   height: 90vh;
@@ -35,7 +35,7 @@ h2 {
 }
 
 button {
-  border: 1px solid black;
+  border: none;
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
@@ -43,23 +43,30 @@ button {
   width: 250px;
   margin-bottom: 5px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 #increment-btn {
   background: #3d7cf183;
 }
-
-#decrement-btn {
-  background: #a343437e;
+#increment-btn:hover {
+  background: #5a8ff083;
 }
+
+/* #decrement-btn {
+  background: #a343437e;
+} */
 
 #save-btn {
   background: #22b14198;
 }
+#save-btn:hover {
+  background: #4caa6198;
+}
 
 p {
   font-weight: bold;
-  color: #0c08f788;
+  color: #0c08f777;
 }
 
 @media screen and (max-width: 640px) {
@@ -74,6 +81,7 @@ p {
     border-radius: 120px;
     font-size: 1.1em;
     text-align: center;
+    cursor: pointer;
   }
   h1 {
     font-size: 1.5em;
