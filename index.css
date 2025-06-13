@@ -44,10 +44,12 @@ button {
   margin-bottom: 5px;
   border-radius: 5px;
   cursor: pointer;
+  box-sizing: border-box;
 }
 
 #increment-btn {
   background: #3d7cf183;
+  font-size: 2.5em;
 }
 #increment-btn:hover {
   background: #5a8ff083;
