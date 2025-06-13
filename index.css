@@ -64,6 +64,7 @@ button {
 
 #save-btn {
   background: #22b14198;
+  box-sizing: border-box;
 }
 #save-btn:hover {
   background: #4caa6198;
