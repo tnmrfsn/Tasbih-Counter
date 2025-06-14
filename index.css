@@ -1,5 +1,6 @@
 body {
-  background-image: url("images.jpg");
+  background-image: url("images\ \(7\).jpg");
+  background-position: bottom;
   background-size: cover;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
