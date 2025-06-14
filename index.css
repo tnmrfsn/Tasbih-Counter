@@ -112,6 +112,5 @@ p {
   #increment-btn:active,
   #save-btn:active {
     border-radius: 120px;
-    box-sizing: border-box;
   }
 }
