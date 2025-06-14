@@ -4,9 +4,10 @@ body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
   height: 100%;
+  width: 100%;
   overflow: hidden;
   color: #ffffff;
-  margin-top: 20%;
+  margin-top: 25%;
   box-sizing: border-box;
 }
 
