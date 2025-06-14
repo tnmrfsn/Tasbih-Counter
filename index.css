@@ -61,8 +61,6 @@ button {
 }
 #increment-btn:active {
   background: #0657f083;
-  border-radius: 5px;
-  box-sizing: border-box;
 }
 #save-btn {
   background: #22b14198;
@@ -72,8 +70,6 @@ button {
 }
 #save-btn:active {
   background: #0b992a98;
-  border-radius: 5px;
-  box-sizing: border-box;
 }
 
 p {
@@ -112,5 +108,9 @@ p {
   #increment-btn {
     background: #3d7cf183;
     font-size: 2em;
+  }
+  button:active {
+    border-radius: 120px;
+    box-sizing: border-box;
   }
 }
