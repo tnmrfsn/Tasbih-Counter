@@ -109,7 +109,8 @@ p {
     background: #3d7cf183;
     font-size: 2em;
   }
-  button:active {
+  #increment-btn:active,
+  #save-btn:active {
     border-radius: 120px;
     box-sizing: border-box;
   }
