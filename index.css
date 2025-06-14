@@ -14,7 +14,6 @@ body {
   border: none;
   border-radius: 10px;
   width: 80vh;
-  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,6 +39,7 @@ button {
   padding-bottom: 10px;
   color: white;
   font-weight: bold;
+  font-size: 2em;
   width: 250px;
   margin-bottom: 5px;
   border-radius: 5px;
@@ -49,7 +49,6 @@ button {
 
 #increment-btn {
   background: #3d7cf183;
-  font-size: 2.5em;
 }
 #increment-btn:hover {
   background: #5a8ff083;
@@ -64,7 +63,6 @@ button {
 
 #save-btn {
   background: #22b14198;
-  box-sizing: border-box;
 }
 #save-btn:hover {
   background: #4caa6198;
@@ -88,14 +86,19 @@ p {
     width: 150px;
     padding: 50px 50px;
     border-radius: 120px;
-    font-size: 1.1em;
+    font-size: 1.3em;
     text-align: center;
     cursor: pointer;
+    box-sizing: border-box;
   }
   h1 {
     font-size: 1.5em;
   }
   h2 {
     font-size: 32px;
+  }
+  #increment-btn {
+    background: #3d7cf183;
+    font-size: 2em;
   }
 }
