@@ -136,7 +136,7 @@ p {
     height: 100%;
     overflow: hidden;
     color: #ffffff;
-    margin-top: 25%;
+    margin-top: 15%;
     box-sizing: border-box;
     animation: glow 2s ease-in-out infinite alternate;
   }
