@@ -111,7 +111,9 @@ p {
     font-size: 2em;
   }
   #increment-btn:active,
-  #save-btn:active {
+  #save-btn:active,
+  #increment-btn:hover,
+  #save-btn:hover {
     width: 150px;
     height: 150px;
     padding: 50px 50px;
