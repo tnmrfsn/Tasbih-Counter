@@ -98,7 +98,8 @@ button::before {
   filter: blur(1.5rem);
   opacity: 0.5;
 }
-button:focus, button:focus-visible {
+button:focus,
+button:focus-visible {
   outline: none;
   box-shadow: none;
 }
@@ -111,6 +112,7 @@ button:focus, button:focus-visible {
 }
 #increment-btn:active {
   background: #2539f0;
+  font-size: 2.5em;
 }
 #save-btn {
   background: #266d35;
@@ -121,6 +123,7 @@ button:focus, button:focus-visible {
 }
 #save-btn:active {
   background: #1d6d2f;
+  font-size: 2.5em;
 }
 
 p {
@@ -214,5 +217,11 @@ p {
   }
   #increment-btn {
     font-size: 2em;
+  }
+  #increment-btn:active {
+    font-size: 3em;
+  }
+  #save-btn:active {
+    font-size: 1.4em;
   }
 }
