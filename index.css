@@ -136,7 +136,7 @@ p {
     height: 100%;
     overflow: hidden;
     color: #ffffff;
-    margin-top: 30%;
+    margin-top: 25%;
     box-sizing: border-box;
     animation: glow 2s ease-in-out infinite alternate;
   }
@@ -213,7 +213,7 @@ p {
     font-size: 40px;
   }
   h2 {
-    font-size: 32px;
+    font-size: 38px;
   }
   #increment-btn {
     font-size: 2em;
