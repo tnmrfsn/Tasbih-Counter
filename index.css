@@ -92,7 +92,7 @@ button::before {
     --angle: 360deg;
   }
 }
-buton::before {
+button::before {
   filter: blur(1.5rem);
   opacity: 0.5;
 }
@@ -182,7 +182,7 @@ p {
       --angle: 360deg;
     }
   }
-  buton::before {
+  button::before {
     filter: blur(1.5rem);
     opacity: 0.5;
   }
