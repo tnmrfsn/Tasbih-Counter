@@ -112,7 +112,7 @@ button:focus-visible {
   background: #4455f1fa;
 }
 #increment-btn:active {
-  background: #4455f1e0;
+  background: #2539f0;
 }
 #save-btn {
   background: #266d35;
@@ -122,7 +122,7 @@ button:focus-visible {
   background: #266d35f8;
 }
 #save-btn:active {
-  background: #266d35e8;
+  background: #1d6d2f;
 }
 
 p {
