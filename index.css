@@ -136,7 +136,7 @@ p {
     height: 100%;
     overflow: hidden;
     color: #ffffff;
-    margin-top: 35%;
+    margin-top: 30%;
     box-sizing: border-box;
     animation: glow 2s ease-in-out infinite alternate;
   }
@@ -210,7 +210,7 @@ p {
   }
 
   h1 {
-    font-size: 48px;
+    font-size: 40px;
   }
   h2 {
     font-size: 32px;
