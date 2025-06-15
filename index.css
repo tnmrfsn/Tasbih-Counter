@@ -199,7 +199,8 @@ p {
     translate: -50% -50%;
     z-index: -1;
     padding: 2px;
-    animation: 3s spin linear infinite;
+    /* animation: 3s spin linear infinite; */
+    animation: 3s spin ease-in-out infinite;
   }
   @keyframes spin {
     from {
@@ -220,7 +221,7 @@ p {
 
   #save-btn::after,
   #save-btn::before {
-    animation: 3s revSpin linear infinite;
+    animation: 3s revSpin ease-in-out infinite;
   }
   button::before,
   #save-btn::before {
