@@ -111,6 +111,8 @@ p {
   }
   #increment-btn:active,
   #save-btn:active {
+    width: 150px;
+    padding: 50px 50px;
     border-radius: 120px;
   }
 }
