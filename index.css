@@ -92,8 +92,9 @@ p {
   }
   button {
     width: 150px;
+    height: 150px;
     padding: 50px 50px;
-    border-radius: 120px;
+    border-radius: 50%;
     font-size: 1.3em;
     text-align: center;
     cursor: pointer;
@@ -112,7 +113,8 @@ p {
   #increment-btn:active,
   #save-btn:active {
     width: 150px;
+    height: 150px;
     padding: 50px 50px;
-    border-radius: 120px;
+    border-radius: 50%;
   }
 }
