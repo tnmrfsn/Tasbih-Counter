@@ -163,7 +163,7 @@ p {
     cursor: pointer;
     box-sizing: border-box;
     position: relative;
-    animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
   }
   button::after,
   button::before {
@@ -188,7 +188,7 @@ p {
     z-index: -1;
     padding: 2px;
     /* animation: 3s spin linear infinite; */
-    animation: 3s spin ease-in-out infinite;
+    animation: 4s spin ease-in-out infinite;
   }
   @keyframes revSpin {
     from {
@@ -201,7 +201,7 @@ p {
 
   #save-btn::after,
   #save-btn::before {
-    animation: 3s revSpin ease-in-out infinite;
+    animation: 4s revSpin ease-in-out infinite;
   }
   button::before,
   #save-btn::before {
