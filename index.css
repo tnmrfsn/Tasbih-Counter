@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
   height: 100dvh;
   color: #ffffff;
-  animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 3s ease-in-out infinite alternate;
 }
 
 .container {
