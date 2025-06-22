@@ -65,6 +65,7 @@ button {
   cursor: pointer;
   box-sizing: border-box;
   position: relative;
+  animation: glow 3s ease-in-out infinite alternate;
 }
 
 @property --angle {
