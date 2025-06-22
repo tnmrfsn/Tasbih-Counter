@@ -156,11 +156,6 @@ button:focus-visible {
   font-size: 2.5em;
 }
 
-p {
-  font-weight: bold;
-  color: #0c08f777;
-}
-
 @media screen and (max-width: 640px) {
   body {
     height: 100%;
