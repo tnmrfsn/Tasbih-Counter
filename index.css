@@ -94,6 +94,19 @@ button::before {
     --angle: 360deg;
   }
 }
+@keyframes revSpin {
+  from {
+    --angle: 360deg;
+  }
+  to {
+    --angle: 0deg;
+  }
+}
+
+#save-btn::after,
+#save-btn::before {
+  animation: 4s revSpin ease-in-out infinite;
+}
 button::before {
   filter: blur(1.5rem);
   opacity: 0.5;
@@ -190,19 +203,7 @@ p {
     /* animation: 3s spin linear infinite; */
     animation: 4s spin ease-in-out infinite;
   }
-  @keyframes revSpin {
-    from {
-      --angle: 360deg;
-    }
-    to {
-      --angle: 0deg;
-    }
-  }
 
-  #save-btn::after,
-  #save-btn::before {
-    animation: 4s revSpin ease-in-out infinite;
-  }
   button::before,
   #save-btn::before {
     filter: blur(1.5rem);
